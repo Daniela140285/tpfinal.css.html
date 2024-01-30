@@ -1,28 +1,35 @@
-.hero{
-    height: 100dvh;
-    position: relative;
-}
-.hero video{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-.nav_container{
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-}
-.nav_links{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    gap: 20px;
-    padding: 10px;    
-}
-.nav_links li a{
-    color: aliceblue;
-}
-.hero h1{
-    position: absolute;
+@media screen and (min-width:320px){
+    .hero{
+        height: 100dvh;    
+    }
+    .nav_container{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+    .logo img{
+        width: 2rem;
+    }       
+    .nav_links{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 20px;
+        padding: 10px;    
+    }
+    .nav_links li a{
+        /* color: aliceblue; */
+    }
+    .hero video{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
 }
