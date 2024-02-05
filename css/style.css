@@ -6,6 +6,7 @@
 @import url(./normalize.css);
 
 
+
 @import url(./mobile.css) screen and (max-width: 767px);
 @import url(./tablet.css) screen and (min-width: 768px);
 @import url(./descktop.css) screen and (min-width:1024px);
@@ -14,9 +15,10 @@
                                                                                                 
 :root{
     --color-font: #fff;
-    --font-title: font-family: 'GatsbyFLF', sans-serif; /*tome menos..*/
-    --font-paragraph: font-family: 'Noto Sans', sans-serif;
+    --font-title: 'GatsbyFLF', sans-serif;    /*tome menos..*/
+    --font-secondary: 'Noto Sans', sans-serif;
     --background-body: #f1f0E4;
+    --padding-section: 50px 0px;
 
 
                                                 
