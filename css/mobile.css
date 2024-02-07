@@ -58,6 +58,7 @@ h1{
     background-color:var(--bgc-body);
     gap: 20px;
     width: 100%;
+    /* max-width: 320px; */
 }
 .close{
     display: none;
