@@ -1,0 +1,10 @@
+.legales{
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+}
+.legales li{
+    display: inline;
+    text-align: center;
+}

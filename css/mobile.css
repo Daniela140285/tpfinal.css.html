@@ -26,9 +26,9 @@ nav{
     flex-wrap: wrap;
     position: fixed; 
     width: 100%;
-    z-index: 10;
+    z-index: 30;
     justify-content: space-around;
-    background-color: #f1f0E4;
+    background-color: var(--bgc-body);
 }
 h1{
     width: 50%;
@@ -55,7 +55,7 @@ h1{
 #menu:target .links_menu {
     display: flex;
     flex-direction: column;
-    background-color: #f1f0E4;
+    background-color:var(--bgc-body);
     gap: 20px;
     width: 100%;
 }
@@ -74,7 +74,7 @@ h1{
     color: var(--color-font);
     font-size: 0.6rem;
     font-family: var(--font-secondary);
-    z-index: 1;
+    z-index: 10;
     display: flex;
     justify-content: center;
     width: 100%;
@@ -82,14 +82,16 @@ h1{
     
 /*--GUSTITO--*/
 main{
-    background-color: #f1f0E4;
+    background-color: var(--bgc-body);
 }
-.gustito_container{
+.container{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: var(--padding-section)
+    padding: var(--padding-section);
+    width: 75vw;
+    margin: 0 auto;
 }   
 .gustito_figure{
     width: 75vw;
@@ -103,7 +105,7 @@ main{
     object-fit: cover;
     border-radius: 0 0 80px 0;
 }
-.gustito_container h2{
+.title_gustito{
     font-family: 'Isabella Script', sans-serif; 
     font-size: 3rem;
 }
@@ -140,8 +142,8 @@ main{
 }
 .latas_img{
     width: 75vw;
-    max-width: 400px;
-    min-width: 320px;
+    max-width: 300px;
+    min-width: 250px;
     margin: 0 auto;
 }
 
@@ -180,6 +182,7 @@ main{
 .container_footer{
     display: flex;
     flex-direction: column;
+    background-color: var(--bgc-body);
 }
 .subcontainer_footer{
     width: 100%;
@@ -187,6 +190,7 @@ main{
     flex-direction: column;
     align-items: center;
     background-color:#ebead9;
+    padding: var(--padding-section);
 }
 .subcontainer_footer figure{
     width: 20vw;
@@ -214,13 +218,17 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
-    flex-wrap: wrap;
+    gap: 30px;
 }
 .legales li a{
     color: #000;
     font-family: var(--font-secondary);
     font-size: .9rem;
-    width: 300px;
+}
+.container_footer p{
+    text-align: center;
+    padding: 0 20px;
+    font-family: var(--font-secondary);
+    font-size: .8rem;
 }
 
