@@ -27,7 +27,8 @@ nav{
     position: fixed; 
     width: 100%;
     z-index: 10;
-    /* background-color: #f1f0E4; */
+    justify-content: space-around;
+    background-color: #f1f0E4;
 }
 h1{
     width: 50%;
@@ -35,25 +36,28 @@ h1{
 }
 .logo img{
     width: 0.9em ;
+    padding: 10px 0;
 }
-.icon_menu{
-    display: flex;
-    justify-content: flex-end;
-    width: 50%;
+.icon_menu a i{
+    padding: 20px;
+    font-size: 2rem;
 }
 .links_menu{
     display: none;
 }
 .links_menu li a{
     font-family: var(--font-secondary);
+    font-weight:500 ;
+    font-size: 1.2rem;
     color: #000;
+    text-transform: uppercase;
 }
 #menu:target .links_menu {
     display: flex;
     flex-direction: column;
+    background-color: #f1f0E4;
     gap: 20px;
     width: 100%;
-    background-color: #f1f0E4;
 }
 .close{
     display: none;
