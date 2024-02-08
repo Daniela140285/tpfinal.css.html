@@ -29,14 +29,15 @@ nav{
     z-index: 30;
     justify-content: space-around;
     background-color: var(--bgc-body);
+    box-shadow: 0px 2px 15px 1px rgba(181,180,168,1);
 }
 h1{
     width: 50%;
     margin: 0;
 }
 .logo img{
-    width: 0.9em ;
-    padding: 10px 0;
+    width: 1.3rem ;
+    padding: 5px 0;
 }
 .icon_menu a i{
     padding: 20px;
@@ -80,11 +81,7 @@ h1{
     justify-content: center;
     width: 100%;
 }
-    
-/*--GUSTITO--*/
-main{
-    background-color: var(--bgc-body);
-}
+/* -- GENERALES--*/
 .container{
     display: flex;
     flex-direction: column;
@@ -93,11 +90,29 @@ main{
     padding: var(--padding-section);
     width: 75vw;
     margin: 0 auto;
-}   
+}     
+.text{
+    font-family: 'Noto Sans', sans-serif;
+    text-align: center;
+    font-size: 1.2rem;
+    line-height: 2.5rem;
+    margin: 0 20px;    
+}
+.title{
+    font-family: 'Futura Std', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 3rem;
+    margin: 0px 5px 30px;
+}
+/*--GUSTITO--*/
+main{
+    background-color: var(--bgc-body);
+}  
 .gustito_figure{
-    width: 75vw;
-    max-width: 400px;
-    min-width: 200px;
+    width: 50vw;
+    max-width: 300px;
+    min-width: 150px;
     margin: 20px auto;
 }
 .gustito_figure img{
@@ -108,31 +123,18 @@ main{
 }
 .title_gustito{
     font-family: 'Isabella Script', sans-serif; 
-    font-size: 3rem;
-}
-.text{
-    font-family: 'Noto Sans', sans-serif;
-    text-align: center;
-    font-size: 1.2rem;
-    line-height: 2.5rem;
-    margin: 0 30px;    
+    font-size: 4rem;
+    margin-left: 10px;
+    padding: 30px 0;
 }
 
 /*--LATAS--*/
 
-.latas_container{
-    padding: var(--padding-section);
-}
-.title{
-    font-family: 'Futura Std', sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 3rem;
-    margin: 0px 30px 30px;
-}
+
 .latas_cards{
     display: flex;
     flex-wrap: wrap;
+    align-content: center;
     gap: 20px;
 }
 .latas_links{
@@ -140,14 +142,15 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 .latas_img{
-    width: 75vw;
+    width: 50vw;
     max-width: 300px;
-    min-width: 250px;
-    margin: 0 auto;
+    min-width: 150px;
+    object-fit: cover;
+    margin: 20px auto;
 }
-
 .latas_links p{
     font-size: 1.5rem;
     text-align: center;
@@ -167,9 +170,9 @@ main{
     font-family: var(--font-secondary);
 }
 .tomeMenos figure{
-    width: 75vw;
-    max-width: 400px;
-    min-width: 320px;
+    width: 50vw;
+    max-width: 300px;
+    min-width: 150px;
     margin: 0 auto;    
 }
 .tomeMenos_img{
@@ -194,9 +197,9 @@ main{
     padding: var(--padding-section);
 }
 .subcontainer_footer figure{
-    width: 20vw;
-    max-width: 100px;
-    min-width: 50px;    
+    width: 15vw;
+    max-width: 50px;
+    min-width: 20px;    
 }
 .logo_footer{
     width: 100%;
@@ -213,6 +216,7 @@ main{
 }
 .fa-brands, .fa-regular {
     font-size: 2rem;
+    color: #000;
 }
 .legales{
     width: 100%;
@@ -232,4 +236,6 @@ main{
     font-family: var(--font-secondary);
     font-size: .8rem;
 }
+
+/*----COMPRAR----*/
 

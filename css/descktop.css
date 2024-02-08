@@ -5,7 +5,7 @@
     margin-right: 30px;
 }
 .links_menu li a{
-    font-weight: 500;
+    font-weight: 600;
 }
 .icon_menu{
     display: none;
@@ -29,6 +29,8 @@
     color: transparent;
     letter-spacing: 5px;
 }
+/*--GENERALES--*/
+
 .latas_cards{
     flex-direction: row;
 }
