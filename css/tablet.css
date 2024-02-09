@@ -8,3 +8,21 @@
     display: inline;
     text-align: center;
 }
+
+/*----COMPRAR----*/
+.formulario_items{
+    display: flex;
+}
+
+/*----RUBIA----*/
+.container_rubia{
+    padding: 0 25px;
+}
+.informacion_rubia h2{
+    font-size: 10rem;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.presentaciones_img li{
+    width: 20%;
+}
